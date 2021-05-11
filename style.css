@@ -1,0 +1,161 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 51, 56);
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 5vw;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+  margin: 0 9.5px;
+}
+
+.menu {
+  height: 18px;
+  margin: 5px 10px 0 10px;
+}
+
+.account {
+  height: 35px;
+  margin: 5px 15px 0 10px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 95px;
+  padding-top: 30px;
+  font-family: "Josefin Sans";
+  letter-spacing: -5px;
+  margin: 40px 0 30px 0;
+  font-weight: lighter;
+}
+
+.sp {
+  display: none;
+}
+
+.skull {
+  display: none;
+}
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 30px;
+}
+
+.shade {
+  background: rgb(37, 37, 37);
+  padding: 13px 15px;
+  margin: 0 20px;
+  border-radius: 30px;
+}
+
+.list {
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.list:hover {
+  background: rgb(145, 141, 141);
+}
+
+section {
+  background: white;
+  display: flex;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 40px;
+  width: 570px;
+  align-items: center;
+}
+
+.search-icon {
+  height: 17px;
+  margin-left: 20px;
+}
+
+.name {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+input {
+  width: 500px;
+  border: none;
+  padding: 0 20px;
+  font-size: 15px;
+  height: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 780px) {
+  h1 {
+    display: none;
+  }
+  .sp {
+    display: flex;
+    margin: 70px auto 30px auto;
+    height: 150px;
+    border-radius: 170px;
+  }
+
+  section {
+    width: 75vw;
+    height: 45px;
+    background: rgb(37, 37, 37);
+  }
+
+  input {
+    width: 65vw;
+    background: rgb(37, 37, 37);
+  }
+
+  .skull {
+    display: block;
+    height: 30px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .name {
+    color: rgb(145, 141, 141);
+  }
+}
